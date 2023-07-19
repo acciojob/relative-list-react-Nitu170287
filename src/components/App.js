@@ -9,7 +9,7 @@ const App = () => {
       <h3>Names of Relative Panning to Visit:</h3>
       <ol key="relativeList" id="relativeList">
         {relatives.map((relative, index) => (
-          <li key={"relativeListItem${index+1}"} id={"relativeListItem${index+1}"}>{relative }</li>
+          <li key={"relativeListItem${index+1}"} id="relativeListItem1">{relative }</li>
         ))}
       </ol>
     </div>
